@@ -66,7 +66,5 @@
         "linter": "eslint"
       }
     }
-  },
-  "nxCloudUrl": "http://localhost:4203",
-  "nxCloudId": "6751d518e70c3272166680ec"
+  }
 }
