@@ -1,0 +1,9 @@
+{
+  "name": "client-three-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/client-three-e2e/src",
+  "implicitDependencies": ["client-three"],
+  "// targets": "to see all targets run: nx show project client-three-e2e --web",
+  "targets": {}
+}

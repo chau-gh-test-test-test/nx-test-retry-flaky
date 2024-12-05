@@ -43,6 +43,14 @@
       "options": {
         "targetName": "test"
       }
+    },
+    {
+      "plugin": "@nx/webpack/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "serveTargetName": "serve",
+        "previewTargetName": "preview"
+      }
     }
   ],
   "targetDefaults": {
@@ -56,7 +64,7 @@
         "babel": true,
         "style": "css",
         "linter": "eslint",
-        "bundler": "vite"
+        "bundler": "webpack"
       },
       "component": {
         "style": "css"
