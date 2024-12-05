@@ -10,6 +10,6 @@ describe('App', () => {
 
   it('should have a greeting as the title', () => {
     const { getByText } = render(<App />);
-    expect(getByText(/Welcome nx-test-retry-flaky/gi)).toBeTruthy();
+    expect(getByText('failed')).toBeTruthy();
   });
 });
